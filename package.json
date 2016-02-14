@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-marudor",
+  "version": "1.0.0",
+  "description": "Eslint Configuration for private use",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marudor/eslint-config-marudor.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "marudor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marudor/eslint-config-marudor/issues"
+  },
+  "homepage": "https://github.com/marudor/eslint-config-marudor#readme"
+}
