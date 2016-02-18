@@ -8,7 +8,7 @@ var flow = require('./rules/flow');
 module.exports = {
   parser: 'babel-eslint',
   env: {
-    "es6": true,
+    'es6': true,
   },
   ecmaFeatures: {
     modules: true
