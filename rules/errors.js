@@ -1,5 +1,5 @@
 module.exports = {
-  'comma-dangle': [2, 'only-multiline'],
+  'comma-dangle': [2, 'always-multiline'],
   'no-cond-assign': 2,
   'no-console': 1,
   'no-constant-condition': 1,
