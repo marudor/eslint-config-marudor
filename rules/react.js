@@ -7,7 +7,7 @@ module.exports = {
   'react/jsx-max-props-per-line': 0,
   'react/jsx-no-duplicate-props': 2,
   'react/jsx-no-undef': 2,
-  'react/jsx-sort-prop-types': 2,
+  'react/sort-prop-types': 2,
   'react/jsx-sort-props': 0,
   'react/jsx-uses-react': 2,
   'react/jsx-uses-vars': 2,
