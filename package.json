@@ -20,7 +20,6 @@
   "homepage": "https://github.com/marudor/eslint-config-marudor#readme",
   "peerDependencies": {
     "eslint": "^2.0.0",
-    "eslint-plugin-flow-vars": "^0.1.3",
-    "babel-eslint": "^5.0.0-beta10"
+    "babel-eslint": "^5.0.0"
   }
 }
