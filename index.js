@@ -5,6 +5,7 @@ var stylistic = require('./rules/stylistic');
 var variables = require('./rules/variables');
 var react = require('./rules/react');
 var flow = require('./rules/flow');
+var classProperty = require('./rules/classProperty');
 
 module.exports = {
   parser: 'babel-eslint',
@@ -15,9 +16,10 @@ module.exports = {
     jsx: true,
     modules: true
   },
-  rules: Object.assign({}, bestPractice, errors, es6, stylistic, variables, react, flow),
+  rules: Object.assign({}, bestPractice, errors, es6, stylistic, variables, react, flow, classProperty),
   plugins: [
     'react',
-    'flow-vars'
+    'flow-vars',
+    'class-property'
   ]
 };

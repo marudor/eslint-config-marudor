@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-marudor",
-  "version": "1.0.9",
+  "version": "2.0.0",
   "description": "Eslint Configuration for private use",
   "main": "index.js",
   "scripts": {},
@@ -18,8 +18,9 @@
     "url": "https://github.com/marudor/eslint-config-marudor/issues"
   },
   "homepage": "https://github.com/marudor/eslint-config-marudor#readme",
-  "peerDependencies": {
-    "eslint": "^2.0.0",
-    "babel-eslint": "^5.0.0||^6.0.0-beta||^6.0.0"
+  "dependency": {
+    "eslint": "^3.0.0",
+    "babel-eslint": "^6.0.0",
+    "eslint-plugin-class-property": "^0.0.3"
   }
 }
