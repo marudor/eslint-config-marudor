@@ -33,7 +33,7 @@ module.exports = {
   'no-array-constructor': 2,
   'no-bitwise': 2,
   'no-continue': 2,
-  'no-duplicate-imports': 2,
+  'no-duplicate-imports': 0,
   'no-inline-comments': 0,
   'no-lonely-if': 2,
   'no-mixed-spaces-and-tabs': 2,
