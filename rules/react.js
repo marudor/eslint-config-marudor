@@ -1,7 +1,7 @@
 module.exports = {
   'react/display-name': 0,
   'react/jsx-boolean-value': 2,
-  'react/jsx-closing-bracket-location': [2, {'location': 'after-props'}],
+  'react/jsx-closing-bracket-location': [2, { location: 'after-props' }],
   'react/jsx-curly-spacing': 2,
   'react/jsx-indent-props': 0,
   'react/jsx-max-props-per-line': 0,
@@ -22,5 +22,5 @@ module.exports = {
   'react/require-extension': 2,
   'react/self-closing-comp': 2,
   'react/sort-comp': 0,
-  'react/wrap-multilines': 2
+  'react/wrap-multilines': 2,
 };

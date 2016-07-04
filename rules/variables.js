@@ -9,5 +9,5 @@ module.exports = {
   'no-undef': 2,
   'no-undefined': 0,
   'no-unused-vars': 1,
-  'no-use-before-define': 0
+  'no-use-before-define': 0,
 };

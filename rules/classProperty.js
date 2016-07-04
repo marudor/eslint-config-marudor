@@ -1,3 +1,3 @@
 module.exports = {
-  'class-property/class-property-semicolon': 2
+  'class-property/class-property-semicolon': 2,
 };

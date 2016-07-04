@@ -20,7 +20,7 @@ module.exports = {
   'prefer-spread': 2,
   'prefer-template': 2,
   'require-yield': 2,
-  'rest-spread-spacing': ["error", "never"],
+  'rest-spread-spacing': ['error', 'never'],
   'template-curly-spacing': 0,
-  'yield-star-spacing': 0
+  'yield-star-spacing': 0,
 };

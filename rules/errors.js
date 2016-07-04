@@ -17,7 +17,7 @@ module.exports = {
   'no-func-assign': 2,
   'no-inner-declaration': 0,
   'no-irregular-whitespace': 2,
-  'no-mixed-operators': ["error", {"allowSamePrecedence": true}],
+  'no-mixed-operators': ['error', { allowSamePrecedence: true }],
   'no-negated-in-lhs': 2,
   'no-obj-calls': 1,
   'no-regex-spaces': 2,
@@ -27,5 +27,5 @@ module.exports = {
   'no-unsafe-finally': 2,
   'use-isnan': 2,
   'valid-jsdoc': 0,
-  'valid-typeof': 2
+  'valid-typeof': 2,
 };
