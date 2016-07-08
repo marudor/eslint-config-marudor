@@ -18,14 +18,11 @@
     "url": "https://github.com/marudor/eslint-config-marudor/issues"
   },
   "homepage": "https://github.com/marudor/eslint-config-marudor#readme",
-  "dependency": {
-    "eslint": "^3.0.0",
-    "babel-eslint": "^6.0.0",
-    "eslint-plugin-class-property": "^1.0.0"
-  },
   "dependencies": {
     "babel-eslint": "6.1.0",
+    "eslint": "^3.0.1",
     "eslint-plugin-class-property": "1.0.0",
+    "eslint-plugin-dependencies": "^1.3.0",
     "eslint-plugin-flow-vars": "0.4.0",
     "eslint-plugin-react": "5.2.2"
   }
