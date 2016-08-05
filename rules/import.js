@@ -1,5 +1,5 @@
 module.exports = {
-  'import/no-unresolved': 2,
+  'import/no-unresolved': 0,
   'import/named': 0,
   'import/default': 2,
   'import/namespace': 2,
@@ -8,7 +8,7 @@ module.exports = {
   'import/no-named-as-default': 2,
   'import/no-named-as-default-member': 2,
   'import/no-deprecated': 2,
-  'import/no-extraneous-dependencies': 2,
+  'import/no-extraneous-dependencies': 0,
   'import/no-mutable-exports': 2,
   'import/no-commonjs': 0,
   'import/no-amd': 0,
