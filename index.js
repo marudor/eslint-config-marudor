@@ -20,8 +20,13 @@ module.exports = {
   rules: Object.assign({}, bestPractice, errors, es6, stylistic, variables, react, flow, classProperty, imports),
   plugins: [
     'react',
-    'flow-vars',
+    'flowtype',
     'class-property',
     'import',
   ],
+  "settings": {
+    "flowtype": {
+      "onlyFilesWithFlowAnnotation": true,
+    },
+  },
 };
