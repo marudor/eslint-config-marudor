@@ -24,9 +24,9 @@ module.exports = {
     'class-property',
     'import',
   ],
-  "settings": {
-    "flowtype": {
-      "onlyFilesWithFlowAnnotation": true,
+  settings: {
+    flowtype: {
+      onlyFilesWithFlowAnnotation: true,
     },
   },
 };
