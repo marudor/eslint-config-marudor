@@ -6,7 +6,6 @@ const variables = require('./rules/variables');
 const react = require('./rules/react');
 const flow = require('./rules/flow');
 const classProperty = require('./rules/classProperty');
-const imports = require('./rules/import');
 
 module.exports = {
   parser: 'babel-eslint',
@@ -17,12 +16,11 @@ module.exports = {
     jsx: true,
     modules: true,
   },
-  rules: Object.assign({}, bestPractice, errors, es6, stylistic, variables, react, flow, classProperty, imports),
+  rules: Object.assign({}, bestPractice, errors, es6, stylistic, variables, react, flow, classProperty),
   plugins: [
     'react',
     'flowtype',
     'class-property',
-    'import',
   ],
   settings: {
     flowtype: {
