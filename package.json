@@ -19,11 +19,11 @@
   },
   "homepage": "https://github.com/marudor/eslint-config-marudor#readme",
   "dependencies": {
-    "babel-eslint": "6.1.2",
-    "eslint": "^3.2.2",
-    "eslint-plugin-class-property": "^1.0.0",
-    "eslint-plugin-flowtype": "^2.4.0",
-    "eslint-plugin-import": "^1.12.0",
-    "eslint-plugin-react": "^6.0.0"
+    "babel-eslint": "^7.0.0",
+    "eslint": "^3.7.1",
+    "eslint-plugin-class-property": "^1.0.1",
+    "eslint-plugin-flowtype": "^2.20.0",
+    "eslint-plugin-import": "^2.0.0",
+    "eslint-plugin-react": "^6.4.0"
   }
 }

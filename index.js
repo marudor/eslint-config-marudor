@@ -9,6 +9,10 @@ const classProperty = require('./rules/classProperty');
 
 module.exports = {
   parser: 'babel-eslint',
+  extends: [
+    'plugin:import/errors',
+    'plugin:import/warnings',
+  ],
   env: {
     es6: true,
   },
@@ -21,6 +25,7 @@ module.exports = {
     'react',
     'flowtype',
     'class-property',
+    'import',
   ],
   settings: {
     flowtype: {
