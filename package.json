@@ -23,7 +23,6 @@
     "eslint": "^3.7.1",
     "eslint-plugin-class-property": "^1.0.1",
     "eslint-plugin-flowtype": "^2.20.0",
-    "eslint-plugin-import": "^2.0.0",
     "eslint-plugin-react": "^6.4.0"
   }
 }
