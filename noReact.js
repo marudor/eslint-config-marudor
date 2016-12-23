@@ -5,6 +5,7 @@ const stylistic = require('./rules/stylistic');
 const variables = require('./rules/variables');
 const flow = require('./rules/flow');
 const classProperty = require('./rules/classProperty');
+const header = require('./rules/header');
 
 module.exports = {
   parser: 'babel-eslint',
@@ -14,10 +15,11 @@ module.exports = {
   ecmaFeatures: {
     modules: true,
   },
-  rules: Object.assign({}, bestPractice, errors, es6, stylistic, variables, flow, classProperty),
+  rules: Object.assign({}, bestPractice, errors, es6, stylistic, variables, flow, classProperty, header),
   plugins: [
     'flowtype',
     'class-property',
+    'header',
   ],
   settings: {
     flowtype: {
