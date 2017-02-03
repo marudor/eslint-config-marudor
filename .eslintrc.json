@@ -4,21 +4,8 @@
     "node": true
   },
   "globals": {
-    "bookshelf": false,
-    "knex": false,
-    "koa": false,
-    "log": false,
-    "cache": false,
-    "router": false,
-    "emptyGuid": false,
-    "__DEV__": false,
-    "app": false,
-    "primus": false,
-    "baseUrl": false,
-    "FACTRO_CONFIG": false
   },
   "rules": {
-    "generator-star-spacing": 0
+    "header/header": 0
   }
-
 }
