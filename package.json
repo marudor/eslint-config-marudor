@@ -3,7 +3,9 @@
   "version": "4.0.2",
   "description": "Eslint Configuration for private use",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "eslint **/*.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/marudor/eslint-config-marudor.git"
