@@ -28,6 +28,6 @@
     "eslint-plugin-flowtype": "^2.30.0",
     "eslint-plugin-header": "^0.1.0",
     "eslint-plugin-react": "^6.9.0",
-    "eslint-plugin-sort-imports-es6-autofix": "^0.1.0"
+    "eslint-plugin-sort-imports-es6-autofix": "^0.1.1"
   }
 }
