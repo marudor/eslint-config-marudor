@@ -7,6 +7,7 @@ const react = require('./rules/react');
 const flow = require('./rules/flow');
 const classProperty = require('./rules/classProperty');
 const header = require('./rules/header');
+const sort = require('./rules/sort');
 
 module.exports = {
   parser: 'babel-eslint',
@@ -17,12 +18,13 @@ module.exports = {
     jsx: true,
     modules: true,
   },
-  rules: Object.assign({}, bestPractice, errors, es6, stylistic, variables, react, flow, classProperty, header),
+  rules: Object.assign({}, bestPractice, errors, es6, stylistic, variables, react, flow, classProperty, header, sort),
   plugins: [
     'react',
     'flowtype',
     'class-property',
     'header',
+    'sort-imports-es6-autofix',
   ],
   settings: {
     flowtype: {
