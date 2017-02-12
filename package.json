@@ -22,17 +22,10 @@
   },
   "homepage": "https://github.com/marudor/eslint-config-marudor#readme",
   "dependencies": {
-<<<<<<< HEAD
-    "babel-eslint": "^7.0.0",
-    "eslint": "^3.14.0",
-    "eslint-plugin-class-property": "^1.0.1",
-    "eslint-plugin-flowtype": "^2.20.0",
-=======
     "babel-eslint": "^7.1.1",
     "eslint": "^3.15.0",
     "eslint-plugin-class-property": "^1.0.3",
     "eslint-plugin-flowtype": "^2.30.0",
->>>>>>> add eslint autofix for imports
     "eslint-plugin-header": "^0.1.0",
     "eslint-plugin-react": "^6.9.0",
     "eslint-plugin-sort-imports-es6-autofix": "^0.1.0"
