@@ -51,6 +51,7 @@ module.exports = {
   'no-useless-computed-key': 2,
   'no-useless-escape': 2,
   'no-whitespace-before-property': 2,
+  'nonblock-statement-body-position': [2, 'beside'],
   'object-curly-newline': 0,
   'object-curly-spacing': [2, 'always'],
   'object-property-newline': 0,

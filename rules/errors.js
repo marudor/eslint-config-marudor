@@ -1,6 +1,7 @@
 module.exports = {
   'comma-dangle': [2, 'always-multiline'],
   'no-await-in-loop': 2,
+  'no-compare-neg-zero': 2,
   'no-cond-assign': 2,
   'no-console': 1,
   'no-constant-condition': 1,
