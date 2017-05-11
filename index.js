@@ -12,23 +12,36 @@ const sort = require('./rules/sort');
 module.exports = {
   parser: 'babel-eslint',
   env: {
-    es6: true,
+    es6: true
   },
   ecmaFeatures: {
     jsx: true,
-    modules: true,
+    modules: true
   },
-  rules: Object.assign({}, bestPractice, errors, es6, stylistic, variables, react, flow, classProperty, header, sort),
+  rules: Object.assign(
+    {},
+    bestPractice,
+    errors,
+    es6,
+    stylistic,
+    variables,
+    react,
+    flow,
+    classProperty,
+    header,
+    sort
+  ),
   plugins: [
     'react',
     'flowtype',
     'class-property',
     'header',
     'sort-imports-es6-autofix',
+    'html'
   ],
   settings: {
     flowtype: {
-      onlyFilesWithFlowAnnotation: true,
-    },
-  },
+      onlyFilesWithFlowAnnotation: true
+    }
+  }
 };

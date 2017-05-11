@@ -16,12 +16,24 @@ module.exports = {
   ecmaFeatures: {
     modules: true,
   },
-  rules: Object.assign({}, bestPractice, errors, es6, stylistic, variables, flow, classProperty, header, sort),
+  rules: Object.assign(
+    {},
+    bestPractice,
+    errors,
+    es6,
+    stylistic,
+    variables,
+    flow,
+    classProperty,
+    header,
+    sort
+  ),
   plugins: [
     'flowtype',
     'class-property',
     'header',
     'sort-imports-es6-autofix',
+    'html',
   ],
   settings: {
     flowtype: {

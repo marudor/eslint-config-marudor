@@ -1,5 +1,14 @@
 module.exports = {
-  'comma-dangle': [2, 'always-multiline'],
+  'comma-dangle': [
+    2,
+    {
+      arrays: 'always-multiline',
+      objects: 'always-multiline',
+      imports: 'always-multiline',
+      exports: 'always-multiline',
+      functions: 'never',
+    },
+  ],
   'no-await-in-loop': 2,
   'no-compare-neg-zero': 2,
   'no-cond-assign': 2,
