@@ -4,8 +4,5 @@ module.exports = {
   'flowtype/require-return-type': 0,
   'flowtype/type-id-match': 0,
   'flowtype/space-before-type-colon': [2, 'never'],
-  'flowtype/space-after-type-colon': [
-    1,
-    'always',
-  ],
+  'flowtype/space-after-type-colon': [1, 'always'],
 };
