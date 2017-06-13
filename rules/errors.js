@@ -1,6 +1,6 @@
 module.exports = {
   'comma-dangle': [
-    2,
+    0,
     {
       arrays: 'always-multiline',
       objects: 'always-multiline',

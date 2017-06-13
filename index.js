@@ -12,14 +12,27 @@ const sort = require('./rules/sort');
 module.exports = {
   parser: 'babel-eslint',
   env: {
-    es6: true
+    es6: true,
   },
   ecmaFeatures: {
     jsx: true,
-    modules: true
+    modules: true,
   },
+  extends: ['prettier', 'prettier/flowtype', 'prettier/react'],
   rules: Object.assign(
-    {},
+    {
+      'prettier/prettier': [
+        'error',
+        {
+          printWidth: 80,
+          semi: true,
+          singleQuote: true,
+          bracketSpacing: true,
+          trailingComma: 'es5',
+          jsxBracketSameLine: true,
+        },
+      ],
+    },
     bestPractice,
     errors,
     es6,
@@ -37,11 +50,12 @@ module.exports = {
     'class-property',
     'header',
     'sort-imports-es6-autofix',
-    'html'
+    'html',
+    'prettier',
   ],
   settings: {
     flowtype: {
-      onlyFilesWithFlowAnnotation: true
-    }
-  }
+      onlyFilesWithFlowAnnotation: true,
+    },
+  },
 };

@@ -16,8 +16,21 @@ module.exports = {
   ecmaFeatures: {
     modules: true,
   },
+  extends: ['prettier', 'prettier/flowtype'],
   rules: Object.assign(
-    {},
+    {
+      'prettier/prettier': [
+        'error',
+        {
+          printWidth: 80,
+          semi: true,
+          singleQuote: true,
+          bracketSpacing: true,
+          trailingComma: 'es5',
+          jsxBracketSameLine: true,
+        },
+      ],
+    },
     bestPractice,
     errors,
     es6,
@@ -34,6 +47,7 @@ module.exports = {
     'header',
     'sort-imports-es6-autofix',
     'html',
+    'prettier',
   ],
   settings: {
     flowtype: {
