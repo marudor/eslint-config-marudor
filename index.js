@@ -11,6 +11,9 @@ const sort = require('./rules/sort');
 
 module.exports = {
   parser: 'babel-eslint',
+  parserOptions: {
+    sourceType: 'module',
+  },
   env: {
     es6: true,
   },
@@ -24,7 +27,7 @@ module.exports = {
       'prettier/prettier': [
         'error',
         {
-          printWidth: 80,
+          printWidth: 120,
           semi: true,
           singleQuote: true,
           bracketSpacing: true,
@@ -44,15 +47,7 @@ module.exports = {
     header,
     sort
   ),
-  plugins: [
-    'react',
-    'flowtype',
-    'class-property',
-    'header',
-    'sort-imports-es6-autofix',
-    'html',
-    'prettier',
-  ],
+  plugins: ['react', 'flowtype', 'class-property', 'header', 'sort-imports-es6-autofix', 'html', 'prettier'],
   settings: {
     flowtype: {
       onlyFilesWithFlowAnnotation: true,
