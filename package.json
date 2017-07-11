@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-marudor",
-  "version": "4.2.5",
+  "version": "5.0.0",
   "description": "Eslint Configuration for private use",
   "main": "index.js",
   "scripts": {
