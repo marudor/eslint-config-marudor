@@ -17,10 +17,6 @@ module.exports = {
   env: {
     es6: true,
   },
-  ecmaFeatures: {
-    jsx: true,
-    modules: true,
-  },
   extends: ['prettier', 'prettier/flowtype', 'prettier/react'],
   rules: Object.assign(
     {
