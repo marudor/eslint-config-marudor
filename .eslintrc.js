@@ -1,10 +1,7 @@
 module.exports = {
-  extends: './noReact.js',
+  extends: './index.js',
   env: {
     node: true
   },
   globals: {},
-  rules: {
-    'header/header': 0
-  }
 };
