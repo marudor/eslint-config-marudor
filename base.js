@@ -168,6 +168,7 @@ module.exports = {
     'no-unmodified-loop-condition': 'error',
     'no-unneeded-ternary': 'error',
     'no-unused-expressions': 'off', // handled by babel
+    'no-unused-vars': ['error', { ignoreRestSiblings: true }],
     'no-use-before-define': 'error',
     'no-useless-call': 'error',
     'no-useless-computed-key': 'error',
