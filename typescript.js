@@ -6,6 +6,10 @@ module.exports = {
         'no-use-before-define': 0,
         'no-unused-vars': 0,
         '@typescript-eslint/array-type': 2,
+        '@typescript-eslint/consistent-type-definitions': [
+          'error',
+          'interface',
+        ],
       },
       plugins: ['@typescript-eslint'],
       files: ['**/*.ts', '**/*.tsx'],
