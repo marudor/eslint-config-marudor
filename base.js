@@ -1,8 +1,8 @@
 module.exports = {
   extends: ['eslint:recommended', './babel.js'],
-  parser: 'babel-eslint',
   parserOptions: {
     sourceType: 'module',
+    ecmaVersion: 2020,
   },
   plugins: ['import'],
   rules: {
@@ -63,7 +63,7 @@ module.exports = {
     'linebreak-style': ['error', 'unix'],
     'lines-around-comment': 'off',
     'lines-around-directive': 'error',
-    'max-depth': 'error',
+    'max-depth': 0,
     'max-len': 'off',
     'max-lines': 'off',
     'max-nested-callbacks': 'error',
@@ -201,6 +201,7 @@ module.exports = {
     'quote-props': 'off',
     quotes: ['off', 'single'],
     radix: 'error',
+    'require-atomic-updates': 0,
     'require-await': 'error',
     'require-jsdoc': 'off',
     'rest-spread-spacing': 0,
