@@ -214,7 +214,7 @@ module.exports = {
     'space-in-parens': 0,
     'space-infix-ops': 0,
     'space-unary-ops': 0,
-    'spaced-comment': 'error',
+    'spaced-comment': ['error', 'always', { markers: ['/'] }],
     strict: 'error',
     'symbol-description': 'error',
     'template-curly-spacing': 0,
