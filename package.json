@@ -4,7 +4,7 @@
   "description": "Eslint Configuration for private use",
   "main": "index.js",
   "scripts": {
-    "test": "eslint **/*.js"
+    "test": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -21,19 +21,21 @@
   },
   "homepage": "https://github.com/marudor/eslint-config-marudor#readme",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^3.10.1",
-    "@typescript-eslint/parser": "^3.10.1",
+    "@typescript-eslint/eslint-plugin": "^4.0.1",
+    "@typescript-eslint/parser": "^4.0.1",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.7.0",
+    "eslint": "^7.8.1",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-babel": "^5.3.1",
     "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-jest": "^23.20.0",
+    "eslint-plugin-jest": "^24.0.0",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.20.6",
     "eslint-plugin-react-hooks": "^4.1.0",
     "eslint-plugin-sort-imports-es6-autofix": "^0.5.0",
-    "eslint-plugin-testing-library": "^3.7.0",
-    "prettier": "^2.1.1"
+    "eslint-plugin-testing-library": "^3.8.0",
+    "jest": "^26.4.2",
+    "prettier": "^2.1.1",
+    "typescript": "^4.0.2"
   }
 }
