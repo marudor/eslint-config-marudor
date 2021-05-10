@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['plugin:import/typescript', 'prettier/@typescript-eslint'],
+  extends: ['plugin:import/typescript'],
   overrides: [
     {
       extends: [
