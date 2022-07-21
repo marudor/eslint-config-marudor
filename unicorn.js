@@ -1,0 +1,21 @@
+module.exports = {
+  extends: ['plugin:unicorn/recommended'],
+  rules: {
+    'unicorn/numeric-separators-style': 0,
+    'unicorn/prevent-abbreviations': 0,
+    'unicorn/prefer-top-level-await': 0,
+    'unicorn/no-abusive-eslint-disable': 0,
+    'unicorn/no-await-expression-member': 0,
+    'unicorn/no-null': 0,
+    'unicorn/no-nested-ternary': 0,
+    'unicorn/no-useless-undefined': 0,
+    'unicorn/prefer-query-selector': 0,
+    'unicorn/explicit-length-check': 0,
+    'unicorn/no-array-callback-reference': 0,
+    'unicorn/catch-error-name': 0,
+    'unicorn/prefer-export-from': 0,
+    'unicorn/prefer-ternary': 0,
+    'unicorn/prefer-includes': 0,
+    'unicorn/filename-case': 0,
+  },
+};

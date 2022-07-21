@@ -16,13 +16,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - name: Use Node.js 16
+      - name: Use Node.js 18
         uses: actions/setup-node@master
         with:
-          node-version: 16
+          node-version: 18
       - name: install
         run: |
-          yarn
+          corepack enable
+          pnpm i
       - name: test
         run: |
-          yarn test
+          pnpm test

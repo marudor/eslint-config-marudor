@@ -4,7 +4,8 @@ module.exports = {
     './testingLibrary.js',
     './typescript.js',
     './jest.js',
-    './sort-imports.js',
+    './sortImports.js',
     './prettier.js',
+    './unicorn.js',
   ],
 };

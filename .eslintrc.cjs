@@ -7,6 +7,7 @@ module.exports = {
   rules: {
     'jest/no-deprecated-functions': 0,
     'import/no-unresolved': 0,
+    'unicorn/prefer-module': 0,
   },
   overrides: [
     {
