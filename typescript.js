@@ -28,6 +28,8 @@ module.exports = {
         '@typescript-eslint/no-unsafe-return': 0,
         '@typescript-eslint/restrict-template-expressions': 0,
         '@typescript-eslint/no-non-null-assertion': 0,
+        '@typescript-eslint/prefer-nullish-coalescing': 0,
+        '@typescript-eslint/ban-tslint-comment': 0,
         '@typescript-eslint/explicit-module-boundary-types': [
           2,
           {
